@@ -1,0 +1,41 @@
+<!-- 设置订单地址信息 -->
+<form class='form' bindsubmit='fromSubmit'>
+    <view class='nameModule'>
+      <text class="peopleName" decode="{{true}}">姓&ensp;&ensp;&ensp;&ensp;名：</text>
+      <!-- 设置订单姓名 -->
+      <view class="InputName">
+          <input placeholder="请填写您的姓名" type="text" name="userName"></input>
+      </view>
+    </view>
+    <view class='sexModule'>
+      <text class='sex' decode="{{true}}">性&ensp;&ensp;&ensp;&ensp;别：</text>
+      <!-- 设置订单性别 -->
+      <view class='sexRadio'>
+        <radio-group name='userGender'>
+          <radio value='1' checked='true'/>男
+          <radio value='2'/>女
+       </radio-group>
+      </view>
+    </view>
+    <view class='phoneModule'>
+      <text class='phoneModuleText' decode="{{true}}">手&ensp;机&ensp;号：</text>
+      <!-- 设置订单手机号 -->
+      <view class="InputName">
+          <input class='phoneModuleInput' placeholder="请填写您的手机号码" type="number" name="userPhone"></input>
+      </view>
+    </view>
+    <view class='addressModule'>
+      <text class='addressModuleText'>所在地址：</text>
+      <!-- 设置订单地址 -->
+      <view class="InputName">
+          <input class='addressModuleInput' placeholder="请填写您的地址" type="text" name="userAddress"></input>
+      </view>
+    </view>
+<!-- 保存地址反馈给后台信息 -->
+  <button form-type='submit' class="save-btn" >
+      保存地址
+  </button>
+</form>
+
+
+<button bindtap="bindCancel" class="cancel-btn" type="default">取消</button>

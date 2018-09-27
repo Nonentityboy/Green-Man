@@ -1,0 +1,108 @@
+/* 绿客侠主菜单页 */
+page{
+  background-color: #F5F6F5;
+  font-size: 28rpx;
+  width: 100%;
+  height: 100%;
+}
+swiper{
+  width:100%;
+  height:400rpx;
+  margin-bottom: 30rpx;
+}
+swiper image{
+  width:100%;
+  height:400rpx;
+}
+
+/* 回收品类菜单页 */
+.recovery{
+  width:93%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin:0 auto;
+  height:350rpx;
+  border-radius:20rpx;
+  background: #fff;
+  margin-bottom: 30rpx;
+}
+.recoveryKind{
+   margin:0 auto;
+}
+.callable{ 
+  margin: 15rpx 0;
+  width: 160rpx;
+  height: 110rpx;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24rpx;
+  color: #15B169;
+}
+.callableKind{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rpx;
+}
+.callableKindImage{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+
+/* 环保知识宣传 */
+.environmental{
+  width:93%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items:center;
+
+  margin:0 auto;
+  height:350rpx;
+  border-radius:20rpx;
+  background: #fff;
+  margin-bottom:30rpx;
+}
+.environmentalProtection{
+   margin:0 auto;
+}
+
+.picker{
+   position: fixed;
+  bottom:0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.picker-top{
+ border-radius: 100px 100px 0 0;
+
+  font-size:32rpx;
+  color:#ffffff;
+  display:flex;
+  flex-direction:column;    
+  background-color:#49D392;
+  align-items:center;
+  justify-content:center;
+  width:250rpx;
+ height: 100px;
+  float:bottom;
+}
+.picker-bottom{
+  border-radius: 100px 100px 0 0;
+  font-size:36rpx;
+  color:#ffffff;
+  display:flex;
+  flex-direction:column;    
+  background-color:#15B169;
+  align-items:center;
+  justify-content:center;
+  width:200rpx;
+  height: 80px;
+}

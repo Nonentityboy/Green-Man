@@ -1,0 +1,42 @@
+<!--绿客侠回收主菜单页-->
+<!-- 菜单轮播图 -->
+
+  <swiper indicator-dots='true' autoplay="true" interval="3000">
+    <swiper-item wx:key="{{greenImg}}" wx:for="{{greenImg}}" wx:for-item="item">
+      <image src="{{item.img}}"></image>
+    </swiper-item>
+  </swiper>
+
+  <!-- 回收品类 -->
+  <view class="recovery">
+    <view class="recoveryKind">回收品类</view>
+    <view class='callableKind'>
+      <view class='callable' wx:for="{{callable}}" wx:key="{{callable}}" wx:for-item="item">
+          <image src='{{item.img}}' class='callableKindImage'></image>
+          <view>{{item.descript}}</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 环保知识宣传 -->
+  <view class="environmental">
+    <view class="environmentalProtection">环保知识宣传</view>
+    <view>垃圾不落地，随手带回家，呼叫绿客侠。</view>
+    <image src='../../imgs/green2.png'></image>
+     
+  </view>
+  <view class="environmental" >
+    
+ 
+    <image src='../../imgs/takeit.png'></image>
+     
+  </view>
+
+<cover-view class='picker' bindtouchend='appointMent'>
+  <cover-view class='picker-top'>  
+    <cover-view class='picker-bottom'>
+      <cover-image src='../../imgs/刷新.png' style='width:50rpx;height:50rpx;'></cover-image>
+      <cover-view>预约回收</cover-view>
+    </cover-view>
+  </cover-view>
+</cover-view>

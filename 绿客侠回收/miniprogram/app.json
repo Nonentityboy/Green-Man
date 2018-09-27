@@ -1,0 +1,27 @@
+{
+  "cloud": true,
+  "pages": [
+            "pages/menu/menu",
+            "pages/confirmAddress/confirmAddress",
+            "pages/index/index",
+  "pages/addAddress/addAddress",
+      "pages/chooseLib/chooseLib",
+
+
+ 
+
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions"
+ 
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#15B169",
+    "navigationBarTitleText": "绿客侠回收",
+    "navigationBarTextStyle": "#fff"
+  }
+}

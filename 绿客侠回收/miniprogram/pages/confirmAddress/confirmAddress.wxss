@@ -1,0 +1,50 @@
+/* 保存地址和取消按钮 */
+page{
+  font-size: 32rpx;
+}
+.save-btn,.cancel-btn {
+  width: 690rpx;
+  height: 95rpx;
+  font-size: 36rpx;
+  line-height: 95rpx;
+  text-align: center;
+  margin-top: 40rpx;
+  border-radius: 6rpx;
+  box-sizing: border-box;
+}
+/* 保存地址图标 */
+.save-btn {
+  background-color: #15B169;
+  margin: 0 auto;
+  color: #fff;
+}
+/* 按钮样式 */
+button[type="default"] {
+    background-color: #ffffff;
+    color: #000;
+}
+/* 表单信息居中 */
+.form view{
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+}
+/* 收获名信息 */
+.peopleName,.sex{
+  display: flex;
+  align-items: center;
+}
+/* 表单列表样式 */
+.nameModule, .sexModule, .phoneModule, .addressModule{
+  width: 90%;
+  margin-left: 25rpx;
+  border-bottom: 4rpx solid #E5E5E7;
+}
+/* 表单名称 */
+.phoneModuleText, .peopleName,.sex, .addressModuleText{
+  width: 200rpx;
+}
+/* 表单内容宽度 */
+.InputName, .sexRadio,.phoneModuleInput, .addressModuleInput{
+  width: 450rpx;
+}
